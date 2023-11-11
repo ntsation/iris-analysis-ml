@@ -1,10 +1,10 @@
-# Análise de Dados do Conjunto de Dados Iris
+# Data Analysis of the Iris Dataset
 
-Este repositório contém um notebook que realiza uma análise de dados do conjunto de dados Iris. O código aborda várias perguntas e tópicos, incluindo análise descritiva, distribuição de classes, correlação entre características, diferenciação entre espécies e visualizações.
+This repository contains a notebook that performs data analysis of the Iris dataset. The code addresses several questions and topics, including descriptive analysis, class distribution, correlation between traits, differentiation between species, and visualizations.
 
-## Requisitos
+## Requirements
 
-Antes de executar o código, certifique-se de ter as seguintes bibliotecas Python instaladas:
+Before running the code, make sure you have the following Python libraries installed:
 
 - pandas
 - numpy
@@ -12,32 +12,32 @@ Antes de executar o código, certifique-se de ter as seguintes bibliotecas Pytho
 - seaborn
 - scikit-learn
 
-Você pode instalá-las usando o `pip`:
+You can install them using `pip`:
 
 ```
 pip install pandas numpy matplotlib seaborn scikit-learn
 ```
-## Como Usar
-Clone este repositório em seu ambiente local:
+## How to use
+Clone this repository to your local environment:
 ```
 git clone https://github.com/ntsation/IrisML.git
 ```
-Certifique-se de que o arquivo iris.csv com os dados esteja no mesmo diretório do notebook.
+Make sure the iris.csv file with the data is in the same directory as the notebook.
 
-Aqui está o link do dataset:
+Here is the dataset link:
 https://www.kaggle.com/datasets/uciml/iris
 
-Execute o notebook:
+Run the notebook:
 ```
 irisML.ipynb
 ```
 
-O código realizará a análise descritiva, exploratória e de classificação dos dados do conjunto de dados Iris, responderá às perguntas e gerará visualizações.
+The code will perform descriptive, exploratory, and classification analysis of data from the Iris dataset, answer questions, and generate visualizations.
 
-## Conteúdo do Código
-- **irisML.ipynb**: O notebook completo que realiza a análise de dados e responde às perguntas propostas.
-- **Resultados**:
-Os resultados da análise, incluindo estatísticas descritivas, distribuição de classes, correlações, visualizações e diferenciação entre espécies, serão exibidos no console.
+## Code Content
+- **irisML.ipynb**: The complete notebook that performs data analysis and answers the proposed questions.
+- **Results**:
+Analysis results, including descriptive statistics, class distribution, correlations, visualizations, and species differentiation, will be displayed in the console.
 
-## Contribuição
-Sinta-se à vontade para contribuir com melhorias ou expandir a análise. Basta criar um fork deste repositório, fazer suas alterações e enviar um pull request.
+## Contribution
+Feel free to contribute improvements or expand the analysis. Just create a fork of this repository, make your changes and submit a pull request.
