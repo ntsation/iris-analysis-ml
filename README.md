@@ -1,50 +1,76 @@
-# Análise de dados do conjunto de dados da íris
+# Iris Dataset Data Analysis
 
-Este repositório contém um notebook que executa a análise de dados do conjunto de dados da IRIS.O código aborda várias questões e tópicos, incluindo análise descritiva, distribuição de classe, correlação entre características, diferenciação entre espécies e visualizações.
+This repository contains a notebook that performs a detailed data analysis of the **Iris Dataset**, a classic dataset used in machine learning. The code covers various tasks such as exploratory data analysis, descriptive statistics, visualizations, and the training of classification models (such as Random Forest and Support Vector Machine) to predict flower species based on morphological features.
 
-## Requisitos
+## Requirements
 
-Antes de executar o código, verifique se você tem as seguintes bibliotecas Python instaladas:
+To run this project, you need to have the following Python libraries installed:
 
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
+- `pandas`: for data manipulation and analysis.
+- `numpy`: for numerical operations.
+- `matplotlib`: for creating visualizations.
+- `seaborn`: for advanced statistical plots and visuals.
+- `scikit-learn`: for machine learning tools, including classification algorithms.
 
-Você pode instalá -los usando `pip`:
+You can install all the necessary dependencies at once using the `pip` command:
 
-```cmd
+```bash
+pip install -r requirements.txt
+```
+
+Alternatively, you can install each library manually:
+
+```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 
-## Como usar
+## How to Use
 
-### 1. Clone este repositório para o seu ambiente local
+### 1. Clone this repository to your local environment
 
-```cmd
+First, clone the repository to your local machine:
+
+```bash
 git clone https://github.com/ntsation/IrisML.git
 ```
 
-### 2. Verifique se o arquivo IRIS.CSV com os dados está no mesmo diretório que o notebook
+### 2. Download the `iris.csv` file
 
-- Aqui está o link do conjunto de dados:
-<https://www.kaggle.com/datasets/uciml/iris>
+The Iris dataset can be downloaded directly from Kaggle, or you can use a local file if you already have it.
 
-### 3. Execute o notebook
+- Download the `iris.csv` file from Kaggle [here](https://www.kaggle.com/datasets/uciml/iris).
+- Place the `iris.csv` file in the same directory as the `irisML.ipynb` notebook to ensure the code can access it.
+
+### 3. Run the notebook
+
+Open the Jupyter notebook or any interactive Python environment of your choice and run the `irisML.ipynb` file.
 
 ```text
 irisML.ipynb
 ```
 
-- O código executará uma análise descritiva, exploratória e de classificação dos dados do conjunto de dados da IRIS, responderá a perguntas e gerará visualizações.
+### 4. What does the notebook do?
 
-## Conteúdo do código
+The notebook performs the following tasks:
 
-- **irisML.ipynb**: O notebook completo que executa a análise de dados e responde às perguntas propostas.
-- **Resultados**:
-Os resultados da análise, incluindo estatística descritiva, distribuição de classe, correlações, visualizações e diferenciação de espécies, serão exibidos no console.
+- **Descriptive Analysis**: Generates descriptive statistics about the flower's characteristics such as sepal length, sepal width, petal length, and petal width.
+- **Exploratory Analysis**: Displays class distributions, correlations between features, and differentiation between species of flowers.
+- **Visualizations**: Creates graphs to facilitate the interpretation of the data, including scatter plots, box plots, and histograms.
+- **Training of Classification Models**: Applies machine learning models such as **Random Forest** and **SVM (Support Vector Machine)** to predict flower species based on the provided features.
 
-## Contribuição
+### 5. Expected Results
 
-Sinta -se à vontade para contribuir com melhorias ou expandir a análise.Basta criar um garfo deste repositório, fazer suas alterações e enviar uma solicitação de tração.
+- Descriptive statistics of the dataset's numerical variables.
+- Visualizations, such as histograms and boxplots, to explore data distributions.
+- Model evaluation results, including **accuracy**, **precision**, **recall**, **F1-score**, and **confusion matrix**.
+- Comparison of models to help choose the best classifier for the dataset.
+
+---
+
+## Repository Structure
+
+The repository contains the following files:
+
+- **`irisML.ipynb`**: The Jupyter notebook that contains all the code and analysis.
+- **`iris.csv`**: The Iris dataset in CSV format (if not downloaded separately from Kaggle).
+- **`requirements.txt`**: A list of dependencies required to run the code. Simply run `pip install -r requirements.txt` to install all the libraries.
